@@ -92,5 +92,8 @@
   ],
   "output": {
     "$jmespath": "tasks[0].scores"
+  },
+  "output_length": {
+    "$jmespath": "length(input.contentItems)"
   }
 }
