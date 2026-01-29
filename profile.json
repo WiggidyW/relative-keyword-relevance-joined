@@ -5,28 +5,34 @@
       "ensemble": {
         "llms": [
           {
+            "count": 1,
             "model": "openai/gpt-4.1-nano",
             "output_mode": "json_schema"
           },
           {
+            "count": 1,
             "model": "openai/gpt-4.1-nano",
             "output_mode": "json_schema",
             "temperature": 0.75
           },
           {
+            "count": 1,
             "model": "openai/gpt-4.1-nano",
             "output_mode": "json_schema",
             "temperature": 1.25
           },
           {
+            "count": 1,
             "model": "google/gemini-2.5-flash-lite",
             "output_mode": "json_schema"
           },
           {
+            "count": 1,
             "model": "google/gemini-3-flash-preview",
             "output_mode": "json_schema"
           },
           {
+            "count": 1,
             "model": "x-ai/grok-4.1-fast",
             "output_mode": "json_schema",
             "temperature": 0.75,
@@ -35,6 +41,7 @@
             }
           },
           {
+            "count": 1,
             "model": "x-ai/grok-4.1-fast",
             "output_mode": "json_schema",
             "temperature": 1.25,
@@ -43,6 +50,7 @@
             }
           },
           {
+            "count": 1,
             "model": "anthropic/claude-haiku-4.5",
             "output_mode": "instruction"
           },
@@ -53,15 +61,18 @@
             "top_logprobs": 20
           },
           {
+            "count": 1,
             "model": "google/gemini-2.5-flash-lite",
             "output_mode": "json_schema",
             "temperature": 0.75
           },
           {
+            "count": 1,
             "model": "openai/gpt-5-mini",
             "output_mode": "json_schema"
           },
           {
+            "count": 1,
             "model": "google/gemini-2.5-flash-lite",
             "output_mode": "json_schema",
             "temperature": 1.25
@@ -73,6 +84,7 @@
             "top_logprobs": 20
           },
           {
+            "count": 1,
             "model": "x-ai/grok-4.1-fast",
             "output_mode": "json_schema",
             "reasoning": {
@@ -82,7 +94,20 @@
         ]
       },
       "profile": [
-        0.2, 0.2, 0.2, 0.2, 1.0, 0.2, 0.2, 1.0, 0.2, 0.2, 1.0, 0.2, 0.2, 0.2
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        1,
+        0.2,
+        0.2,
+        1,
+        0.2,
+        0.2,
+        1,
+        0.2,
+        0.2,
+        0.2
       ]
     }
   ]

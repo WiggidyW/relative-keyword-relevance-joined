@@ -72,7 +72,10 @@
         }
       }
     },
-    "required": ["keywords", "contentItems"]
+    "required": [
+      "keywords",
+      "contentItems"
+    ]
   },
   "tasks": [
     {
